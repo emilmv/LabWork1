@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Transactions;
+
 Console.WriteLine("Hello, World!");
 #region Task1
 //ededin sade ve ya murekkeb oldugunu tapin
@@ -76,4 +78,27 @@ Console.WriteLine("Hello, World!");
 //    }
 //}
 //Console.WriteLine(count);
+#endregion
+#region Task4Practice
+int[] arr = { 1,2,3,4,5,6,7,8,9,11,13};
+int count = 0;
+
+foreach (var item in arr)
+{
+    bool isPrime = true;
+    for (int i = 2; i < item; i++)
+    {
+        if (item % i == 0)
+        {
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime)
+    {
+        count++;
+    }
+
+}
+Console.WriteLine(+count++);
 #endregion
