@@ -56,11 +56,15 @@ Console.WriteLine("Hello, World!");
 #endregion
 #region Task4
 int[] arr = { 1, 2, 3, 5, 6, 7, 4, 3, 4, 25, 45, 63, 46, 23, 41, 53, 64, 53, 5225, 2, 3, 234, 12, };
-foreach (var item in arr)
+int count = 0;
+foreach  (int i in arr)
 {
-
+    if (i == 63)
+    {
+        count++;
+    }
 }
-
+Console.WriteLine(count);
 
 
 #endregion
