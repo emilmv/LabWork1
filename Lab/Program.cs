@@ -55,16 +55,25 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(count);
 #endregion
 #region Task4
-int[] arr = { 1, 2, 3, 5, 6, 7, 4, 3, 4, 25, 45, 63, 46, 23, 41, 53, 64, 53, 5225, 2, 3, 234, 12, };
-int count = 0;
-foreach  (int i in arr)
-{
-    if (i == 63)
-    {
-        count++;
-    }
-}
-Console.WriteLine(count);
+//20 - 50 araliginda olan sade ededlerin sayi
+//int[] arr = { 1, 2, 3, 5, 6, 7, 4, 3, 4, 25, 45, 63, 46, 47, 23, 41, 53, 64, 53, 5225, 2, 3, 234, 12, };
+//int count = 0;
 
-
+//foreach(var item in arr)
+//{
+//    bool isPrime = true;
+//    for(int i = 2; i < item; i++)
+//    {
+//        if (item % i == 0)
+//        {
+//            isPrime = false;
+//            break;
+//        }
+//    }
+//    if (isPrime)
+//    {
+//        count++;
+//    }
+//}
+//Console.WriteLine(count);
 #endregion
